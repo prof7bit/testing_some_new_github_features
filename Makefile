@@ -1,5 +1,6 @@
+CFLAGS = -O2
 all:
-	gcc test.c -o test
+	gcc $(CFLAGS) test.c -o test
 
 clean:
 	rm -f test
